@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .home-recommend {
   display: flex;
   border-bottom: 10px solid #eeeeee;

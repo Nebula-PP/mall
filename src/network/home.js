@@ -6,3 +6,14 @@ export function getHomeMultidata() {
     url: '/home/multidata'
   })
 }
+
+//home页面商品数据的网络请求
+export function getHomeGoodsdata(type,page) {
+  return request({
+    url: '/home/data',
+    params: {
+      type,
+      page
+    }
+  })
+}
